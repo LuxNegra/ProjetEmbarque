@@ -12,11 +12,13 @@ namespace NoSQLProject
 {
     public class Service : IService
     {
+        private static string _dbAddress = "http://10.145.128.97:5555/";
+
         public string GetJsonDocumentById(string baseName, string id)
         {
             DocumentResponse queryResult = null;
             // Connexion à une base
-            using (var client = new MyCouchClient("http://192.168.139.131:5984/" + baseName))
+            using (var client = new MyCouchClient(_dbAddress + baseName))
             {
                 // Récup d'un document par son ID
                 queryResult = client.Documents.GetAsync(new GetDocumentRequest(id)).Result;
@@ -33,7 +35,7 @@ namespace NoSQLProject
             ViewQueryResponse viewQueryResult = null;
 
             // Connexion à une base
-            using (var client = new MyCouchClient("http://192.168.139.131:5984/" + baseName))
+            using (var client = new MyCouchClient(_dbAddress + baseName))
             {
                 // Récup d'un document par son titre
                 var viewQuery = new QueryViewRequest("viewtest", "test2").Configure(q => q.Key(title));
