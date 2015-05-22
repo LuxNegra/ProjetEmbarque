@@ -1,0 +1,8 @@
+VUES
+----
+
+1) tableau de bord = taux humidité, taux éclairage et température les plus récents (domotique).
+
+2) Moyenne éclairage et humidité sur la semaine -> indications d'entretien.
+
+3) Historique (filtres date).
