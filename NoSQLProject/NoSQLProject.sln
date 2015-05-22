@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoSQLProject", "NoSQLProject\NoSQLProject.csproj", "{02947F8D-9AEB-46F4-85DB-075348B3D667}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientTest", "ClientTest\ClientTest.csproj", "{4B7F580D-993B-4D8C-973E-9A6F739A0B21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{D01D3C25-8F7E-419B-99DA-337E7B786A39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02947F8D-9AEB-46F4-85DB-075348B3D667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02947F8D-9AEB-46F4-85DB-075348B3D667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02947F8D-9AEB-46F4-85DB-075348B3D667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02947F8D-9AEB-46F4-85DB-075348B3D667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B7F580D-993B-4D8C-973E-9A6F739A0B21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B7F580D-993B-4D8C-973E-9A6F739A0B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B7F580D-993B-4D8C-973E-9A6F739A0B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B7F580D-993B-4D8C-973E-9A6F739A0B21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D01D3C25-8F7E-419B-99DA-337E7B786A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D01D3C25-8F7E-419B-99DA-337E7B786A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D01D3C25-8F7E-419B-99DA-337E7B786A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D01D3C25-8F7E-419B-99DA-337E7B786A39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
